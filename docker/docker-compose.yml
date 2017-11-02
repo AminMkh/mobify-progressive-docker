@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  web:
+    # container_name: mobify_adaptive_web2
+    build: .
+    ports:
+      # - 80:80
+      # - 443:8443
+      - 8443:8443
+    volumes:
+      - ../:/server/
+      - ./shared:/shared
+
