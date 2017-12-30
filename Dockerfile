@@ -1,7 +1,7 @@
 
 # set the base image to Debian
 # https://hub.docker.com/_/debian/
-FROM ubuntu:latest
+FROM ubuntu:16.04
 RUN apt-get update
 
 # Replace shell with bash so we can source files
