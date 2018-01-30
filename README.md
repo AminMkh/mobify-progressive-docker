@@ -7,7 +7,7 @@ To run this simple do:
 
 1- Start the container and attach to it: 
         ```
-	docker run -P 443:8443 -v `pwd`:/server -ti mobify-progressive-docker bash
+	docker run -p 443:8443 -v `pwd`:/server -ti mobify-progressive-docker bash
 	```
 
 2- Change to project directory
